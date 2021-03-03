@@ -35,6 +35,7 @@ window.onclick = (event) => {
     hamburger.classList.remove('close');
     hamburger.classList.add('open');
     menuModal.style.display = 'none';
+    document.body.style.overflow = 'auto';
   }
 
   if (event.target === pledgeModal) {
