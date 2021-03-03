@@ -59,7 +59,7 @@ body {
           align-items: flex-start;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .header {
     height: 36rem;
     background-image: url(../images/image-hero-desktop.jpg);
@@ -79,7 +79,7 @@ body {
   z-index: 2;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .open {
     display: none;
   }
@@ -130,7 +130,7 @@ body {
   display: none;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .menu-desktop {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -179,7 +179,7 @@ body {
           align-items: center;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .intro {
     max-width: 65rem;
     margin: auto;
@@ -200,7 +200,7 @@ body {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .intro__name {
     font-size: 2.4rem;
     margin-bottom: 0;
@@ -214,7 +214,7 @@ body {
   line-height: 1.6;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .intro__text {
     margin-bottom: 4rem;
   }
@@ -231,7 +231,7 @@ body {
   max-width: 45rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .intro__buttons {
     max-width: 95%;
   }
@@ -264,7 +264,7 @@ body {
   transition: all 0.2s;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .intro__buttons-bookmark {
     display: none;
   }
@@ -295,7 +295,7 @@ body {
           align-items: center;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 899px) {
   .intro__buttons-bookmark-dk {
     display: none;
   }
@@ -338,7 +338,7 @@ body {
           align-items: center;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .progress {
     max-width: 65rem;
     margin: auto;
@@ -371,7 +371,7 @@ body {
   border-bottom: 1px solid #bababa;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .progress__divider {
     height: 6rem;
     border-bottom: none;
@@ -393,7 +393,7 @@ body {
   border-radius: 50px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .progress__1 {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
@@ -458,7 +458,7 @@ body {
   border-radius: 10px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .about {
     max-width: 65rem;
     margin: auto;
@@ -499,7 +499,7 @@ body {
   border-radius: 10px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .about__reward {
     padding: 1rem 3rem 1rem 3rem;
   }
@@ -580,7 +580,7 @@ body {
           animation: slide-mobile 0.5s forwards;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .pledge__content {
     max-width: 65rem;
     padding: 3rem 5rem 5rem 5rem;
@@ -595,7 +595,7 @@ body {
   font-size: 1.8rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .pledge__content h2 {
     font-size: 2.4rem;
   }
@@ -645,7 +645,7 @@ body {
   margin-bottom: 3rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .pledge__item .radio-group {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -709,14 +709,14 @@ body {
   opacity: 0.5;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .pledge__item-info {
     margin-left: 3.6rem;
     margin-top: -1rem;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .pledge__item .amount {
     position: absolute;
     top: 0.8rem;
