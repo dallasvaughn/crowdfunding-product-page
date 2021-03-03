@@ -1,0 +1,129 @@
+.intro {
+  background-color: #fff;
+  margin: 0 2.5rem;
+  padding: 0 2rem 4rem 2rem;
+  text-align: center;
+  transform: translateY(-4.5rem);
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @include for-desktop {
+    max-width: 65rem;
+    margin: auto;
+    transform: translateY(-9rem);
+  }
+
+  &__logo {
+    transform: translateY(-50%);
+    margin-bottom: -2rem;
+  }
+
+  &__name {
+    font-size: 2rem;
+    width: 80%;
+    margin-bottom: 1rem;
+
+    @include for-desktop {
+      font-size: 2.4rem;
+      margin-bottom: 0;
+    }
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: $darkGray;
+    line-height: 1.6;
+
+    @include for-desktop {
+      margin-bottom: 4rem;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 45rem;
+
+    @include for-desktop {
+      max-width: 95%;
+    }
+
+    &-cta {
+      background-color: $cyan;
+      color: #fff;
+      font-size: 1.4rem;
+      font-weight: 700;
+      padding: 2rem 5rem;
+      border: none;
+      border-radius: 50px;
+      transition: all 0.2s;
+
+      &:hover {
+        cursor: pointer;
+        background-color: $darkCyan;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    &-bookmark {
+      height: 5.3rem;
+      transition: all 0.2s;
+
+      @include for-desktop {
+        display: none;
+      }
+
+      &:hover {
+        cursor: pointer;
+        opacity: 0.7;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    &-bookmark-dk {
+      border: none;
+      border-radius: 50px;
+      padding: 0 2rem;
+      color: $darkGray;
+      font-weight: 700;
+      transition: all 0.2s;
+
+      display: flex;
+      align-items: center;
+
+      @include for-mobile {
+        display: none;
+      }
+
+      &-img {
+        height: 5.3rem;
+        transform: translateX(-1.9rem);
+      }
+
+      &:hover {
+        cursor: pointer;
+
+        img {
+          opacity: 0.7;
+        }
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

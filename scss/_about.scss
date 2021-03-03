@@ -1,0 +1,94 @@
+.about {
+  background-color: #fff;
+  margin: 2.5rem 2.5rem 3rem 2.5rem;
+  padding: 1rem 2.2rem 1rem 2.2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+
+  @include for-desktop {
+    max-width: 65rem;
+    margin: auto;
+    transform: translateY(-3rem);
+    padding: 2rem 4rem 4rem 4rem;
+  }
+
+  p {
+    color: $darkGray;
+    line-height: 1.8;
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    &.last {
+      margin-bottom: 3rem;
+    }
+
+    &.amount {
+      color: $cyan;
+      margin-top: -1.8rem;
+      margin-bottom: 2.5rem;
+    }
+
+    span {
+      color: #000;
+      font-size: 3.6rem;
+      font-weight: 700;
+      margin-right: 0.5rem;
+    }
+  }
+
+  &__reward {
+    margin-bottom: 2rem;
+    padding: 0 2rem 2rem 2rem;
+    border: 1px solid $darkGray;
+    border-radius: 10px;
+
+    @include for-desktop {
+      padding: 1rem 3rem 1rem 3rem;
+
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      p.amount {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+
+    &-button {
+      background-color: $cyan;
+      color: #fff;
+      font-size: 1.4rem;
+      font-weight: 700;
+      padding: 1.7rem 3.5rem;
+      border: none;
+      border-radius: 50px;
+      transition: all 0.2s;
+
+      &:hover {
+        cursor: pointer;
+        background-color: $darkCyan;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    &:last-child {
+      opacity: 0.5;
+    }
+  }
+}
+
+.oos {
+  background-color: $darkGray;
+  transition: none;
+
+  &:hover {
+    cursor: not-allowed;
+    background-color: $darkGray;
+  }
+}
